@@ -1,6 +1,11 @@
-# Nuxt 3 Minimal Starter
+# Project Client App - Nuxt 3
 
-Nuxt 3 document: `https://nuxt.com/`
+# Document
+
+Nuxt 3 : `https://nuxt.com/`
+Scss: `https://sass-lang.com/documentation/`
+Prettier: `https://prettier.io/docs/en/`
+Tailwindcss: `https://tailwindcss.com/docs/installation`
 
 ## Require
 

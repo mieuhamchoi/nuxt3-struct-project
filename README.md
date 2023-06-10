@@ -3,9 +3,13 @@
 # Document
 
 Nuxt 3 : `https://nuxt.com/`
+
 Scss: `https://sass-lang.com/documentation/`
+
 Prettier: `https://prettier.io/docs/en/`
+
 Tailwindcss: `https://tailwindcss.com/docs/installation`
+
 
 ## Require
 

@@ -1,42 +1,46 @@
 # Nuxt 3 Minimal Starter
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Nuxt 3 document: `https://nuxt.com/`
+
+## Require
+
+Node JS 16+
 
 ## Setup
 
-Make sure to install the dependencies:
+Follow on the steps:
+
+Step 1: (setup all package(node_modules) by file package.json)
 
 ```bash
-# yarn
-yarn install
-
-# npm
 npm install
-
-# pnpm
-pnpm install
 ```
 
-## Development Server
-
-Start the development server on `http://localhost:3000`
+Step 2: (dev run project)
 
 ```bash
 npm run dev
 ```
+## Format code and test
 
-## Production
+Format code
 
-Build the application for production:
+```bash
+npm run format
+```
+
+Test code
+
+```bash
+npm run test
+```
+
+## Active dev tools
+
+Open file "nuxt.config.ts" => find the comment "active dev toos" =>   devtools: { enabled: false } ->   devtools: { enabled: true }
+
+## build for production
 
 ```bash
 npm run build
 ```
-
-Locally preview production build:
-
-```bash
-npm run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.

@@ -3,7 +3,8 @@ import { resolve } from "path";
 export default defineNuxtConfig({
   // modules dependencies
   modules: [
-    '@pinia/nuxt'
+    '@pinia/nuxt',
+    '@nuxtjs/i18n',
   ],
   // plugins dependencies
   plugins: [
@@ -18,7 +19,7 @@ export default defineNuxtConfig({
       "@plugins": resolve(__dirname, './src/plugins'),
   },
   // active dev toos
-  devtools: { enabled: false },
+  devtools: { enabled: true },
   // src dir
   srcDir: 'src/',
   // tailwind css
@@ -42,4 +43,25 @@ export default defineNuxtConfig({
       }
     }
   },
+  // i18n locale config
+  i18n: {
+    lazy: true,
+    langDir: "locales",
+    strategy: "prefix_and_default",
+    locales: [
+      {
+          code: 'en-US',
+          iso: 'en-US',
+          name: 'ENGLISH(US)',
+          file: 'en-US.ts',
+      },
+      {
+          code: 'vi',
+          iso: 'vi',
+          name: 'Tiếng Việt',
+          file: 'vi.ts',
+      }
+    ],
+    defaultLocale: 'vi',
+  }
 })

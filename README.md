@@ -10,6 +10,25 @@ Prettier: `https://prettier.io/docs/en/`
 
 Tailwindcss: `https://tailwindcss.com/docs/installation`
 
+Docker: `https://docs.docker.com/get-started/`
+
+# Docker
+
+Docker build (create images)
+
+```bash
+docker build -t container_name .
+```
+
+Docker run (create container by images)
+
+```bash
+docker run -dp 3001:3000 imagesKey/container_name
+```
+
+3001: port on windows / system, 3000: port project on docker
+
+Goto `http://localhosst:3001` see the result
 
 ## Require
 

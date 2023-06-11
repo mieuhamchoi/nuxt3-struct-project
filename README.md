@@ -12,6 +12,12 @@ Tailwindcss: `https://tailwindcss.com/docs/installation`
 
 Docker: `https://docs.docker.com/get-started/`
 
+Pinia: `https://pinia.vuejs.org/introduction.html`
+
+@Nuxt/Pinia: `https://nuxt.com/docs/migration/configuration#vuex`
+
+Axios: `https://www.npmjs.com/package/axios`
+
 # Docker
 
 Docker build (create images)

@@ -1,6 +1,6 @@
 # Project Client App - Nuxt 3
 
-# Document
+# Document dependencies
 
 Nuxt 3 : `https://nuxt.com/`
 

@@ -1,4 +1,4 @@
-import { defineStore } from 'pinia'
+import { defineStore } from 'pinia';
 
 export const ExampleStore = defineStore('main', {
   state: () => ({
@@ -7,15 +7,17 @@ export const ExampleStore = defineStore('main', {
   actions: {
     increment() {
       // `this` is the store instance
-      this.counter++
+      this.counter++;
     },
     async getData() {
       const axios = useNuxtApp().$axios;
-      return await axios.Apis.ExampleServices.randomData().then((res) => {
-        return res
-      }).catch((er) => {
-        //console.log("lỗi", er)
-      })
-    }
+      return await axios.Apis.ExampleServices.randomData()
+        .then((res) => {
+          return res;
+        })
+        .catch((er) => {
+          //console.log("lỗi", er)
+        });
+    },
   },
-})
+});

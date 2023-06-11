@@ -32,4 +32,14 @@ export default defineNuxtConfig({
   css: [
     resolve(__dirname, './public/assets/css/main.scss')
   ],
+  // scss global variables config
+  vite: {
+    css: {
+      preprocessorOptions: {
+        scss: {
+          additionalData: '@use "@assets/css/variable/index.scss" as *;'
+        }
+      }
+    }
+  },
 })

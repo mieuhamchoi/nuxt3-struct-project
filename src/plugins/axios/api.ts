@@ -2,5 +2,5 @@
 import Apis from './modules';
 
 export default {
-  Apis
+  Apis,
 };

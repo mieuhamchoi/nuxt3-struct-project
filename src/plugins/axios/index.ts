@@ -1,8 +1,8 @@
-import api from './api'
+import api from './api';
 export default defineNuxtPlugin(async () => {
-    return {
-        provide: {
-            axios: api,
-        }
-    }
-})
+  return {
+    provide: {
+      axios: api,
+    },
+  };
+});

@@ -7,7 +7,7 @@
 </template>
 
 <script lang="ts">
-import { ExampleStore } from  '../stores/Example.store';
+import { ExampleStore } from '@stores/Example.store';
 import Example from '@components/example.vue';
 export default {
   components: {
@@ -21,7 +21,13 @@ export default {
   async created() {
     //console.log("this.ExampleStore", ExampleStore().counter)
     let result = await ExampleStore().getData();
-    console.log("result", result)
+    //console.log('result', result);
   },
 };
 </script>
+
+<style lang="scss">
+  h1 {
+    color: $var_mainColor-hex;
+  }
+</style>

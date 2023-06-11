@@ -1,10 +1,11 @@
+// tailwindcss config
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-h1 {
-  color: red;
-}
-
-h2 {
-  color: green;
+//reset css
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
 }

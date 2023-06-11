@@ -18,6 +18,8 @@ Pinia: `https://pinia.vuejs.org/introduction.html`
 
 Axios: `https://www.npmjs.com/package/axios`
 
+i18n: `https://v8.i18n.nuxtjs.org/getting-started/basic-usage`
+
 # Docker
 
 Docker build (create images)
